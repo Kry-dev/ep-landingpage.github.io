@@ -1,0 +1,22 @@
+{
+  "name": "ep-landingpage",
+  "version": "1.0.0",
+  "description": "Simple landing page",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-plumber": "^1.2.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.42.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaroslav Kryvda",
+  "license": "ISC"
+}

@@ -1,0 +1,73 @@
+//theme-colors
+	$theme-white: #fff;
+	$theme-color: #68ACE5;
+	$theme-blue-dark: #002D72;
+	$theme-font-color: #222;
+	$theme-font-color-darker: #111;
+// Misc.
+	$misc: (
+		z-index-base:		10000,
+		header-side:		'right'
+	);
+
+// Duration.
+	$duration: (
+		header:				0.5s,
+		transition:			0.2s
+	);
+
+// Size.
+	$size: (
+		border-radius:		5px,
+		border-width:		2px,
+		element-height:		2.75em,
+		element-margin:		2.25em,
+		container-width:	45em
+	);
+
+// Font.
+	$font: (
+		family:				('Lato', sans-serif),
+		family-fixed:		('Source Code Pro', monospace),
+		weight:				400,
+		weight-bold:		700
+	);
+
+// Palette.
+	$palette: (
+		main:				$theme-color,
+		bg:					$theme-white,
+		// fg:					#888,
+		fg:					$theme-font-color-darker,
+		// fg-bold:			#777,
+		fg-bold:			$theme-font-color,
+		fg-light:			#aaa,
+		border:				#f4f4f4,
+		border-bg:			#fafafa,
+		border2:			#e4e4e4,
+		border2-bg:			#f4f4f4,
+		border3:			#e0e0e0,
+		border3-bg:			#eaeaea,
+
+		accent1: (
+			bg:				$theme-color,
+			fg-bold:		$theme-white,
+			fg:				mix($theme-color, $theme-white, 25%),
+			fg-light:		mix($theme-color, $theme-white, 40%)
+		),
+
+		accent2: (
+			bg:				#989898,
+			fg-bold:		$theme-white,
+			fg:				mix(#989898, $theme-white, 25%),
+			fg-light:		mix(#989898, $theme-white, 40%)
+		),
+
+		header: (
+			bg:				$theme-color,
+			fg-bold:		$theme-white,
+			fg:				mix($theme-color, $theme-white, 25%),
+			fg-light:		mix($theme-color, $theme-white, 40%),
+			border:			mix($theme-color, $theme-white, 90%)
+		)
+	);
