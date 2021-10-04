@@ -183,8 +183,9 @@
                 height: 10px;
                 border-radius: 100%;
                 position: absolute;
-                left: 8px;
-                top: 49.5%;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
             }
 
             &:after {
@@ -194,16 +195,17 @@
                 height: 10px;
                 border-radius: 100%;
                 position: absolute;
-                right: 8px;
-                top: 49.5%;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
             }
 
             &.ps-timeline {
-                margin: 390px 0;
+                margin: 190px 0;
                 padding: 0;
                 border-top: 2px solid $theme-color;
                 list-style: none;
-
+                position: relative;
                 li {
                     float: left;
                     width: 16.6666666667%;

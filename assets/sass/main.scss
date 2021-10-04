@@ -947,6 +947,9 @@
 			position: relative;
 			vertical-align: top;
 			width: 49%;
+			&.fit {
+				width: 100%;
+			}
 			&:before {
 				background: _palette(accent1, bg);
 				border-radius: 100%;

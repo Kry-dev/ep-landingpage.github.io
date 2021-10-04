@@ -25,11 +25,11 @@
   .ps-timeline-sec .container ol.ps-timeline li .ps-top { width: 60% !important; float: right !important; right: 0; top: -40px; }
   .ps-timeline-sec .container ol.ps-timeline li .ps-bot { width: 60% !important; float: right !important; right: 0; top: -40px; } }
 
-.ps-timeline-sec .container ol:before { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; left: 8px; top: 49.5%; }
+.ps-timeline-sec .container ol:before { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
-.ps-timeline-sec .container ol:after { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; right: 8px; top: 49.5%; }
+.ps-timeline-sec .container ol:after { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
-.ps-timeline-sec .container ol.ps-timeline { margin: 390px 0; padding: 0; border-top: 2px solid #68ACE5; list-style: none; }
+.ps-timeline-sec .container ol.ps-timeline { margin: 190px 0; padding: 0; border-top: 2px solid #68ACE5; list-style: none; position: relative; }
 
 .ps-timeline-sec .container ol.ps-timeline li { float: left; width: 16.6666666667%; padding-top: 30px; padding-left: 0; position: relative; }
 
@@ -771,6 +771,8 @@ ul.feature-icons { list-style: none; padding-left: 0; }
 ul.feature-icons li { text-decoration: none; display: inline-block; margin: 0 0 1.6875em 0; padding: 0.35em 0.75em 0 3.5em; position: relative; vertical-align: top; width: 49%; }
 
 ul.feature-icons li:before { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; text-transform: none !important; font-family: 'Font Awesome 5 Free'; font-weight: 400; }
+
+ul.feature-icons li.fit { width: 100%; }
 
 ul.feature-icons li:before { background: #68ACE5; border-radius: 100%; color: #fff; display: block; height: 2.5em; left: 0; line-height: 2.5em; position: absolute; text-align: center; top: 0; width: 2.5em; }
 
