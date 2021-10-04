@@ -601,7 +601,7 @@
 	}
 
 
-/* Hero Image */
+/* Section */
 	.section {
 		height: 100%;
 		min-height: 100vh;
@@ -631,6 +631,20 @@
 		&--img {
 			position: relative;
 			overflow: hidden;
+			&-title {
+				color: $theme-white;
+				text-align: center;
+				font-size: 3.75em;
+				width: 100%;
+				max-width: 80%;
+				margin: auto;
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				z-index: 2;
+				transform: translate(-50%,-50%);
+			}
 			&:before {
 				content: "";
 				display: block;

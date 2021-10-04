@@ -1,4 +1,3 @@
-
 (function($) {
 
 	var $window = $(window),
@@ -120,7 +119,7 @@
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + $('.hero--img-title').html() + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
