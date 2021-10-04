@@ -5,8 +5,8 @@
 .ps-timeline-sec .container { position: relative; }
 
 @media screen and (max-width: 767px) { .ps-timeline-sec .container ol:before { background: #68ACE5; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; top: 130px !important; left: 36px !important; }
-  .ps-timeline-sec .container ol:after { background: #348e80; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; top: inherit !important; left: 36px; }
-  .ps-timeline-sec .container ol.ps-timeline { margin: 130px 0 !important; border-left: 2px solid #348e80; padding-left: 0 !important; padding-top: 120px !important; border-top: 0 !important; margin-left: 25px !important; }
+  .ps-timeline-sec .container ol:after { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; top: inherit !important; left: 36px; }
+  .ps-timeline-sec .container ol.ps-timeline { margin: 130px 0 !important; border-left: 2px solid #002D72; padding-left: 0 !important; padding-top: 120px !important; border-top: 0 !important; margin-left: 25px !important; }
   .ps-timeline-sec .container ol.ps-timeline li { height: 220px; float: none !important; width: inherit !important; }
   .ps-timeline-sec .container ol.ps-timeline li:nth-child(2) .img-handler-bot img { width: 70px; }
   .ps-timeline-sec .container ol.ps-timeline li:last-child { margin: 0; bottom: 0 !important; height: 120px; }
@@ -25,37 +25,39 @@
   .ps-timeline-sec .container ol.ps-timeline li .ps-top { width: 60% !important; float: right !important; right: 0; top: -40px; }
   .ps-timeline-sec .container ol.ps-timeline li .ps-bot { width: 60% !important; float: right !important; right: 0; top: -40px; } }
 
-.ps-timeline-sec .container ol:before { background: #68ACE5; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; left: 8px; top: 49.5%; }
+.ps-timeline-sec .container ol:before { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; left: 8px; top: 49.5%; }
 
-.ps-timeline-sec .container ol:after { background: #68ACE5; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; right: 8px; top: 49.5%; }
+.ps-timeline-sec .container ol:after { background: #002D72; content: ""; width: 10px; height: 10px; border-radius: 100%; position: absolute; right: 8px; top: 49.5%; }
 
 .ps-timeline-sec .container ol.ps-timeline { margin: 390px 0; padding: 0; border-top: 2px solid #68ACE5; list-style: none; }
 
-.ps-timeline-sec .container ol.ps-timeline li { float: left; width: 25%; padding-top: 30px; position: relative; }
+.ps-timeline-sec .container ol.ps-timeline li { float: left; width: 16.6666666667%; padding-top: 30px; padding-left: 0; position: relative; }
 
-.ps-timeline-sec .container ol.ps-timeline li span { width: 50px; height: 50px; margin-left: -25px; background: #fff; border: 4px solid #68ACE5; border-radius: 50%; -webkit-box-shadow: 0 0 0 0px #fff; box-shadow: 0 0 0 0px #fff; text-align: center; line-height: 50px -10; color: #68ACE5; font-size: 2em; font-style: normal; position: absolute; top: -26px; left: 50%; }
+.ps-timeline-sec .container ol.ps-timeline li span { width: 50px; height: 50px; margin-left: -25px; background: #fff; border: 4px solid #68ACE5; border-radius: 50%; -webkit-box-shadow: 0 0 0 0px #fff; box-shadow: 0 0 0 0px #fff; text-align: center; line-height: 40px; color: #68ACE5; font-size: 1em; font-style: normal; position: absolute; top: -26px; left: 50%; }
 
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before { content: ''; color: #68ACE5; width: 2px; height: 50px; background: #68ACE5; position: absolute; top: -50px; left: 50%; }
 
-.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:after { content: ''; color: #68ACE5; width: 8px; height: 8px; background: #68ACE5; position: absolute; bottom: 90px; left: 44%; border-radius: 100%; }
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:after { content: ''; color: #002D72; width: 8px; height: 8px; background: #002D72; position: absolute; bottom: 90px; left: 44%; border-radius: 100%; }
 
 .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before { content: ''; color: #68ACE5; width: 2px; height: 50px; background: #68ACE5; position: absolute; bottom: -50px; left: 50%; }
 
-.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after { content: ''; color: #68ACE5; width: 8px; height: 8px; background: #68ACE5; position: absolute; top: 90px; left: 44%; border-radius: 100%; }
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after { content: ''; color: #68ACE5; width: 8px; height: 8px; background: #002D72; position: absolute; top: 90px; left: 44%; border-radius: 100%; }
 
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-top { position: absolute; bottom: 0; margin-bottom: 130px; width: 100%; }
 
-.ps-timeline-sec .container ol.ps-timeline li .img-handler-top img { display: table; margin: 0 auto; }
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top img, .ps-timeline-sec .container ol.ps-timeline li .img-handler-top .icon { display: table; margin: 0 auto; }
 
 .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot { position: absolute; margin-top: 60px; width: 100%; }
 
-.ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img { display: table; margin: 0 auto; }
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img, .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot .icon { display: table; margin: 0 auto; }
 
-.ps-timeline-sec .container ol.ps-timeline li p { text-align: center; width: 80%; margin: 0 auto; }
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top .icon, .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot .icon { color: #68ACE5; font-size: 2em; }
 
-.ps-timeline-sec .container ol.ps-timeline li .ps-top { position: absolute; bottom: 0; margin-bottom: 100px; }
+.ps-timeline-sec .container ol.ps-timeline li p { text-align: center; font-size: 1em; width: 80%; margin: 0 auto; }
 
-.ps-timeline-sec .container ol.ps-timeline li .ps-bot { position: absolute; margin-top: 35px; }
+.ps-timeline-sec .container ol.ps-timeline li .ps-top { position: absolute; width: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); bottom: 0; margin-bottom: 100px; }
+
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot { position: absolute; width: 100%; margin-top: 35px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
@@ -549,17 +551,17 @@ pre code { -webkit-overflow-scrolling: touch; display: block; line-height: 1.5em
   .row.gtr-200.gtr-uniform > * { padding-top: 2.5em; } }
 
 /* Container */
-.container { margin: 0 auto; max-width: calc(100% - 4.5em); width: 45em; }
+.container { margin: 0 auto; max-width: calc(100% - 4.5em); width: 62em; }
 
-.container.xsmall { width: 11.25em; }
+.container.xsmall { width: 15.5em; }
 
-.container.small { width: 22.5em; }
+.container.small { width: 31em; }
 
-.container.medium { width: 33.75em; }
+.container.medium { width: 46.5em; }
 
-.container.large { width: 56.25em; }
+.container.large { width: 77.5em; }
 
-.container.xlarge { width: 67.5em; }
+.container.xlarge { width: 93em; }
 
 .container.max { width: 100%; }
 
@@ -647,7 +649,7 @@ input[type="radio"] + label:before { border-radius: 100%; }
 
 .icon:before { line-height: inherit; }
 
-.icon.solid:before { font-weight: 900; }
+.icon.solid:before { font-family: 'Font Awesome 5 Free'; font-weight: 900; }
 
 .icon.brands:before { font-family: 'Font Awesome 5 Brands'; }
 

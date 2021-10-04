@@ -46,7 +46,7 @@
                 }
 
                 &:after {
-                    background: #348e80;
+                    background: $theme-blue-dark;
                     content: "";
                     width: 10px;
                     height: 10px;
@@ -58,7 +58,7 @@
 
                 &.ps-timeline {
                     margin: 130px 0 !important;
-                    border-left: 2px solid #348e80;
+                    border-left: 2px solid $theme-blue-dark;
                     padding-left: 0 !important;
                     padding-top: 120px !important;
                     border-top: 0 !important;
@@ -177,7 +177,7 @@
 
 
             &:before {
-                background: $theme-color;
+                background: $theme-blue-dark;
                 content: "";
                 width: 10px;
                 height: 10px;
@@ -188,7 +188,7 @@
             }
 
             &:after {
-                background: $theme-color;
+                background: $theme-blue-dark;
                 content: "";
                 width: 10px;
                 height: 10px;
@@ -206,10 +206,10 @@
 
                 li {
                     float: left;
-                    width: 25%;
+                    width: 16.6666666667%;
                     padding-top: 30px;
+                    padding-left: 0;
                     position: relative;
-
                     span {
                         width: 50px;
                         height: 50px;
@@ -219,9 +219,9 @@
                         border-radius: 50%;
                         box-shadow: 0 0 0 0px $theme-white;
                         text-align: center;
-                        line-height: 50px -10;
+                        line-height: 40px;
                         color: $theme-color;
-                        font-size: 2em;
+                        font-size: 1em;
                         font-style: normal;
                         position: absolute;
                         top: -26px;
@@ -241,10 +241,10 @@
 
                             &:after {
                                 content: '';
-                                color: $theme-color;
+                                color: $theme-blue-dark;
                                 width: 8px;
                                 height: 8px;
-                                background: $theme-color;
+                                background: $theme-blue-dark;
                                 position: absolute;
                                 bottom: 90px;
                                 left: 44%;
@@ -269,7 +269,7 @@
                                 color: $theme-color;
                                 width: 8px;
                                 height: 8px;
-                                background: $theme-color;
+                                background: $theme-blue-dark;
                                 position: absolute;
                                 top: 90px;
                                 left: 44%;
@@ -284,7 +284,8 @@
                         margin-bottom: 130px;
                         width: 100%;
 
-                        img {
+                        img ,
+                        .icon {
                             display: table;
                             margin: 0 auto;
                         }
@@ -295,27 +296,40 @@
                         margin-top: 60px;
                         width: 100%;
 
-                        img {
+                        img,
+                        .icon  {
                             display: table;
                             margin: 0 auto;
                         }
                     }
 
+                    .img-handler-top .icon,
+                    .img-handler-bot .icon {
+                        color: $theme-color;
+                        font-size: 2em;
+                    }
                     p {
                         text-align: center;
+                        font-size: 1em;
                         width: 80%;
                         margin: 0 auto;
                     }
 
                     .ps-top {
                         position: absolute;
+                        width: 100%;
+                        left: 50%;
+                        transform: translateX(-50%);
                         bottom: 0;
                         margin-bottom: 100px;
                     }
 
                     .ps-bot {
                         position: absolute;
+                        width: 100%;
                         margin-top: 35px;
+                        left: 50%;
+                        transform: translateX(-50%);
                     }
                 }
             }

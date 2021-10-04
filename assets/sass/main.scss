@@ -5,6 +5,9 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'sections/timeline';
+// @import url('../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss');
+// @import url('../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss');
+// @import url('../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss');
 @import url('fontawesome-all.min.css');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
@@ -585,6 +588,7 @@
 
 		&.solid {
 			&:before {
+				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 		}
