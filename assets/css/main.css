@@ -867,6 +867,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .features article .inner > :last-child { margin-bottom: 0; }
 
+.features.list-none { list-style: none; }
+
 /* Header */
 #header { display: -moz-flex; display: -ms-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -moz-flex-direction: column; -ms-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -moz-justify-content: space-between; -ms-justify-content: space-between; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background: #68ACE5; color: #d9eaf9; height: 100%; overflow-y: auto; position: fixed; text-align: center; top: 0; width: 21em; right: 0; }
 
